@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 960.583334346612446, 14.5, 77.0, 20.0 ],
+					"text" : "master dac"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -107,7 +118,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 554.0, 753.0, 39.0, 22.0 ],
+					"patching_rect" : [ 1002.583334346612446, 39.0, 39.0, 22.0 ],
 					"text" : "r rdac"
 				}
 
@@ -119,7 +130,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.0, 753.0, 38.0, 22.0 ],
+					"patching_rect" : [ 960.583334346612446, 39.0, 38.0, 22.0 ],
 					"text" : "r ldac"
 				}
 
@@ -152,7 +163,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 512.0, 797.0, 45.0, 45.0 ],
+					"patching_rect" : [ 960.583334346612446, 70.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 511.066667477289911, 51.799999803304672, 45.0, 45.0 ]
 				}
@@ -567,15 +578,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.25, 70.0, 351.0, 22.0 ],
+					"patching_rect" : [ 111.25, 70.0, 351.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 49.933332522710202, 256.799999803304672, 246.233334143956483, 35.0 ],
-					"text" : "/Users/jacksongoode/Downloads/MCT4043-Goode/sensorlog.py"
+					"text" : "/Users/jacksongoode/Documents/GitHub/breathingthroughmax/sensorlog.py"
 				}
 
 			}
@@ -1813,8 +1825,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.5, 609.0, 129.0, 22.0 ],
-					"text" : "read wind-chimes.mp3"
+					"patching_rect" : [ 95.5, 609.0, 189.0, 22.0 ],
+					"text" : "read /resources/wind-chimes.mp3"
 				}
 
 			}
@@ -4282,42 +4294,42 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.extrema.local.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.denoise.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.mean.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.sanitize.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.window.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.deviation.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
