@@ -1,15 +1,17 @@
-# breathingthroughmax
+# Breathing through Max
 
-A system to track your rate of breath and sonify it in real-time through Max MSP. It emphasizes tenants of biofeedback and can serve as a responsive system for stress relief. 
+## Description
+A system to track your rate of breath and sonify it in real-time through Max MSP. It emphasizes tenants of biofeedback and can serve as a responsive system for stress relief. Please see the associated [blog post](https://jacksongoo.de/breathing-through-max/) for more information.
 
-Setup for data playback (from prerecorded data)
+## Instructions
+### Setup for data playback (from prerecorded data)
 
 1. Extract package zips from inside the "package" folder and move to the "/Documents/Max 8/Packages" directory located in the user directory
 2. Open the Max patch
 3. Load the "data.txt" file in the "csvloader" sub-patch (this may take a minute)
 4. Start the metro to iterate through the data with button labeled "play"
 
-Setup for real time streaming:
+### Setup for real time streaming:
 
 1. Install python-osc (Python 3.5+ required) with "pip install python-osc"
 2. Install SensorLog from the iOS App Store (no current equivalent for Android at the moment)
